@@ -276,10 +276,12 @@
     <br>
 
 
-    <form>
+    <form oninput="result.value=parseInt(a.value) + parseInt(b.value)">  <!--adhala input walin change ekak wenawanam result walin adhala eliment eke adhala value eka wenas wenna-->
 
         <input type="range" id="a" name="a" value="10">
         <input type="number" id="b" name="b" value="20">
+
+        <output name="result">30</output>   <!--meka uganwapu nis aresult input eka kiyadhunne(Not import)-->
 
     </form>
 
