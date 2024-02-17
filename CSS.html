@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
-        h2{
+       /* h2{
             color: yellowgreen;
-            text-decoration: underline;    /*internal CSS*/
+            text-decoration: underline;    !*internal CSS*!
         }
 
         h1{
-            color: coral;   /*h1 eken thiyena hama tag ekakatama applye we*/
+            color: coral;   !*h1 eken thiyena hama tag ekakatama applye we*!
         }
 
         p{
             color: yellowgreen;
-        }
+        }*/
 
        /* ol{
             color: blue;
@@ -80,16 +80,16 @@
         }*/
 
 
-        h11:hover{
-            background: darkslategrey;   /*mouse point eka udata aran giyama*/
+        /*h11:hover{
+            background: darkslategrey;   !*mouse point eka udata aran giyama*!
         }
 
         a:visited{
-            color: red;   /*link ekak visit kalanam*/
+            color: red;   !*link ekak visit kalanam*!
         }
 
         a:link{
-            color: cyan;     /*link ekak visit karala nathnam*/
+            color: cyan;     !*link ekak visit karala nathnam*!
         }
 
         h11:active{
@@ -97,11 +97,35 @@
         }
 
         input:focus{
-            background: #312f2f;   /*meken wenne click kalama pata wenas wenawa*/
+            background: #312f2f;   !*meken wenne click kalama pata wenas wenawa*!
+        }
+
+        li:first-child{
+            color: green;   !*list eke mul eka colour we*!
+        }
+
+        !*Body ekak athule thiyenawanam css part eka add wenne na (css eka applye wennanam pearent ekenekta rapup wela thiyenna one) *!
+
+        li:last-child{
+            color: darkmagenta;    !*list eke anthima eka colour we*!
         }
 
 
+        li:nth-child(3){
+            color: yellow;    !*apita kamathi ekata colour ekak dhenna*!
+        }
+*/
+
+       li:nth-last-child(2){
+           color: red;            /*aga idhan mulata css apply we*/
+       }
+
+       li:only-child{
+           color: green;     /*meken balanne pearentge athule meya witharadhda inne kiyala*/
+       }
+
     </style>
+
 </head>
 
 <body>
@@ -162,6 +186,28 @@
     <form>
         <input type="text" id="name" name="name" placeholder="Enter Your Name">
     </form>
+
+    <!--<ul>
+        <li>Java</li>
+        <li>Python</li>
+        <li>C++</li>
+        <li>React</li>
+        <li>Flutter</li>
+    </ul>-->
+
+        <ui>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C++</li>
+            <li>React</li>
+            <li>Flutter</li>
+        </ui>
+
+    <ui>
+        <li>Go</li>
+    </ui>
+
+
 
  </body>
 </html>
