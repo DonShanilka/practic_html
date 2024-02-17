@@ -63,14 +63,41 @@
             color: red;     !*kohema hari pharagrhap ekak thiyenam meka apply wenawa*!
         }*/
 
-        select>p{
-             color: blue;    /*selecction eka athule thiyena pharagrahp walata*/
+        /*select>p{
+             color: blue;    !*selecction eka athule thiyena pharagrahp walata*!
         }
 
         h3+p{
-            color: red;   /*me element ekata passe meyata hambawena 1 paragaf elemet ekata applye karanawa*/
-        }    /*me dhenna athara mukuth thiyenne ba. ehema thibboth meka apply wenne na*/
+            color: red;   !*me element ekata passe meyata hambawena 1 paragaf elemet ekata applye karanawa*!
+        }    !*me dhenna athara mukuth thiyenne ba. ehema thibboth meka apply wenne na*!
 
+        h3-p{
+           color: red;   !*h3 ekata passe hamba wena hama pharagrhap ekatama meka applye karanawa*!
+        }*/
+
+        ul>li>ol:first-line{
+            color: red;
+        }
+
+        /*ul>li:first-of-type>ol>li:first-of-type{
+            color: red;
+        }*/
+
+        ul>li:first-of-type>ol>li:nth-child(2){
+            color: orange;
+        }
+
+        ul>li:first-of-type>ol>li{
+            color: deeppink;
+        }
+
+        ul>li:nth-child(2)>ol>li:first-of-type>ol>li:nth-child(3)>ul>li:nth-child(2){
+            color: blue;
+        }
+
+        ul>li:nth-child(2)>ol>li:first-of-type>ol>li:last-of-type{
+            color: green;
+        }
 
 
     </style>
@@ -78,6 +105,7 @@
 
 <body>
 
+<!--
 <h1> PortFolio</h1>
 
 <h3>Welcome to IJSE</h3>
@@ -160,6 +188,46 @@
     </div>
 </main>
 
+-->
+
+
+<ul>
+    <li>
+        Java
+        <ol>
+            <li>Java Basics</li>
+            <li>JavaEE</li>
+            <li>Java Spring Boot</li>
+            <li>MySql</li>
+        </ol>
+    </li>
+    <li>
+        UI Technologies
+        <ol>
+            <li>HTML
+                <ol>
+                    <li>Introduction to HTML</li>
+                    <li>HTML Text Formatting</li>
+                    <li>
+                        HTML Multimedia
+                        <ul>
+                            <li>Add Images</li>
+                            <li>Add Videos</li>
+                            <li>Add Audios</li>
+                        </ul>
+                    </li>
+                    <li>HTML Forms</li>
+                    <li>HTML Tables</li>
+                </ol>
+            </li>
+            <li>CSS</li>
+            <li>JS</li>
+        </ol>
+    </li>
+    <li>
+        AWS and ML
+    </li>
+</ul>
 
 </body>
 </html>
