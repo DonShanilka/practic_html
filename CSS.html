@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        h2{
+            color: yellowgreen;
+            text-decoration: underline;    /*internal CSS*/
+        }
+
+        h1{
+            color: coral;   /*h1 eken thiyena hama tag ekakatama applye we*/
+        }
+
+        p{
+            color: yellowgreen;
+        }
+
+       /* ol{
+            color: blue;
+        }*/
+
+        /*.shanilka{
+            color: blueviolet;       !*class Selector - dot ekak thiyenna ne (Shanilka kiyanne class selector eke name eka) *!
+        }
+        #Green-text{
+            color: greenyellow;
+        }
+
+        .my-by{
+            background-color: yellow;
+        }
+
+        #my-text{
+            text-decoration: underline;  !*id selector*!
+        }
+
+        *{
+            font-style: italic;   !*okkoma eleiment walata apply karaganna onenam eka use karanne*!
+        }*/
+
+        /*[herf] {
+            color: darkslategrey; !*actribute selector *!
+        }*/
+
+        /*[myattr]{
+            color: gold;
+        }*/
+
+        /*[href^="https"] {
+            background: red;          !*herf eka patan aran thiyenne http walinnam ekata red apply karanna*!
+        }*/
+
+        /*[href$="uk"]{
+            background: gold;
+        }
+
+        [href*="met"]{
+            background: #a2005c;   !*met kiyala thiyena okkoma*!
+        }
+
+        [href~="met"]{
+            background: #a2005c;     !*Space ekak thiyenawadha kiyala balanawa valuess wala*!
+        }
+
+        h1[href="https://www.bolton.ac.uk/WELCOME/"]{
+            background: #d0ff00;                              !*h1 eliment ekata adhala tikata css eka apply karai*!
+        }
+
+        h1[href="https://www.bolton.ac.uk/WELCOME/"]{
+            background: #d0ff00;
+        }
+
+        .My-Campus[href]{
+            background: #d0ff00;
+        }*/
+
+
+        h11:hover{
+            background: darkslategrey;   /*mouse point eka udata aran giyama*/
+        }
+
+        a:visited{
+            color: red;   /*link ekak visit kalanam*/
+        }
+
+        a:link{
+            color: cyan;     /*link ekak visit karala nathnam*/
+        }
+
+        h11:active{
+            background: rebeccapurple;
+        }
+
+        input:focus{
+            background: #312f2f;   /*meken wenne click kalama pata wenas wenawa*/
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <h1 style="color: blue; text-decoration: underline"> Welcome to CSS </h1>      <!--inline CSS-->
+    <h2> Welcome to CSS 2</h2>
+    <h3> Welcome to CSS 3</h3>
+
+    <h1>Hello Selector</h1>
+    <h1>Shanilka</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum iusto necessitatibus
+        odit qui reiciendis. A dignissimos dolorem eligendi facere facilis
+        in, inventore ipsum maxime nesciunt numquam quasi sit, suscipit tempore!</p>
+
+
+    <ol>
+        <h2>Hi</h2>
+        <li id="Green-text">Java</li>   <!--id eka dhenne specific Eliment ekakata witharai dhenna puluwan// But thawa ekakata dhunnahama apply weno-->
+        <li>Python</li>
+        <!--<li id="Green-text">C++</li>-->
+
+    </ol>
+
+    <p class="shanilka" id="my-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, aperiam deserunt
+        distinctio dolorum eligendi esse illum ipsum, maxime modi molestiae
+        necessitatibus nemo obcaecati, omnis quasi repudiandae saepe sequi similique sit.</p>   <!--class selector ekka id selector use karanna puluwan-->
+
+    <h10 class="shanilka my-by">Shanilka</h10>
+
+    <ol>
+        <li>
+            <a href="https://www.harvardmet.edu/">Haravrd</a>
+        </li>
+        <li>
+            <a href="http://www.ox.ac.uk/">OX</a>
+        </li>
+        <li>
+            <a href="https://www.cam met.ac.uk/" >Camb</a>
+        </li>
+
+    </ol>
+
+    <h1 href="https://www.bolton.ac.uk/WELCOME/"> Welcome to U Of Bolton </h1>
+    <h1 class="My-Campus" href="https://www.Ijse.ac.lk/WELCOME/"> Welcome to IJSE 1</h1>
+    <h1 href="https://www.Ijse.ac.lk/WELCOME/"> Welcome to IJSE 2</h1>
+    <h1 class="My-Campus" href="https://www.Ijse.ac.lk/WELCOME/"> Welcome to IJSE 3</h1>
+    <h1 class="My-Campus"> Hellow GDSE 3</h1>
+
+
+    <h11>I m Shanilka</h11><br>
+
+    <a href="https://www.harvardmet.edu/">Haravrd</a><br>
+    <a href="http://www.ox.ac.uk/">OX</a><br>
+    <a href="https://www.cam met.ac.uk/" >Camb</a><br>
+    <a href="https://www.Ijse.ac.lk/" >Ijse</a><br>
+    <a href="https://www.Slit.ac.lk/" >Sliit</a><br>
+
+    <form>
+        <input type="text" id="name" name="name" placeholder="Enter Your Name">
+    </form>
+
+ </body>
+</html>
