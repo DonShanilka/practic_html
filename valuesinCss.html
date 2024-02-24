@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">   <!--root eka-->
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="Assest/normalize.css">
+    <link rel="normalize" href="Assest/normalize.css">
 
     <style>
 
@@ -22,10 +22,42 @@
             width: 300px;
         }*/
 
-       #mydiv3{
+       /*#mydiv3{
            background-color: cyan;
-           width: 100vw;                       /*vw eken kiyanne 100% viwe port eke kochcharak with ekak alla gannawadha kiyana eka*/
-           height: 100vh;                     /*siyata 40i ganne view hight eken*/
+           width: 100vw;                       !*vw eken kiyanne 100% viwe port eke kochcharak with ekak alla gannawadha kiyana eka*!
+           height: 100vh;                     !*siyata 40i ganne view hight eken*!
+
+       }
+
+       section{
+           font-size: 100px;
+       }
+
+       p{
+          !* font-size: 2em; *!     !*parent gethiyena eken em eke values eka wadikaranawa 100px * 2em = 200px *!
+
+           font-size: 1rem;          !*meya kelinma root eke defualt value eka aran eka 2n wadi karanawa // pearetlagen values ganne na *!
+       }
+
+       main{
+           font-size: 50px;
+       }
+*/
+       #mydiv4{
+           width: 1000px;
+           height: 400px;
+
+           border: 2px solid deeppink;
+       }
+
+       #mydiv4>div{
+           width: 50%;
+           height: 50px;
+           background-color: lightblue;
+       }
+
+       #mydiv5{
+           font-size: 50%;
        }
 
     </style>
@@ -37,11 +69,28 @@
         <h1></h1>
     </div>
 
-    <!--<section id="mySection">
-        <div id="mydiv2"> hi </div>
-    </section>-->
+    <section id="mySection">
+        <p>Shanilka</p>
+    </section>
 
-    <div id="mydiv3"></div>
+    <section>
+        <main>
+            <p2>
+               Hiiiiii       <!--meken lagama inna pearentge value ekak illa gani-->
+            </p2>           <!--meyata illaganna pearent kenek nathnam meya hirakiye root element enken nawathinawa passe root eke default value eka gannawa-->
+        </main>     <!--root eka kiyanne html-->
+    </section>
+
+
+    <div id="mydiv4">
+        <div>
+
+        </div>
+    </div>
+
+    <div id="mydiv5">
+        Hello World
+    </div>
 
 </body>
 </html>
