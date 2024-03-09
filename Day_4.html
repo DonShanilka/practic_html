@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+
+ <style>
+
+section {
+            width: 100vw;
+            height: 500px;
+            border: solid 2px coral;
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        section > div {
+            height: 150px;
+            aspect-ratio: 1/1;
+            border-radius: 30px;
+            box-shadow: 10px 10px blue 20px 10px;
+        }
+
+
+        section > div:nth-last-child(6) {
+            background-color: rebeccapurple;
+            align-self: start;
+
+        }
+
+        section > div:nth-last-child(5) {
+            background-color: rgb(255, 0, 0);
+            align-self: center;
+
+        }
+
+        section > div:nth-last-child(4) {
+            background-color: hotpink;
+            align-self: end;
+
+        }
+
+        section > div:nth-last-child(3) {
+            background-color: green;
+            align-self: center;
+        }
+
+        section > div:nth-last-child(2) {
+            background-color: blue;
+            align-self: start;
+        }
+
+        section > div:nth-last-child(1) {
+            background-color: yellow;
+            align-self: center;
+        }
+ </style>
+
+</head>
+
+
+<body>
+
+<section>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>   
+</section>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+
+<style>
+
+ section {
+  display: flex;
+  justify-content: space-around;
+ }
+
+ section>div{
+            height: 300px;
+            aspect-ratio: 1/1;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+            text-align: center;
+            
+ }
+
+
+@media all and (max-width: 800px){
+
+ section {
+  display: block;
+ }
+
+section>div{       
+ margin: 10px auto;
+ }
+}
+
+section > div > span {
+ color: hotpink;
+}
+
+#section2{
+ display: grid;
+ grid-template-columns: repeat(6, 1fr);
+ background-color: rgb(230, 203, 255);
+}
+
+#section2 > div {
+width: 100px;
+height: 100px;
+margin: 15px auto;
+border: 2px solid red;
+
+background-image: url(./Assest/image/Java_\(programming_language\)-Logo.wine.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+
+</style>
+
+</head>
+<body>
+ 
+ <section>
+
+  <div>
+   <h1>Vision</h1>
+
+   <!-- icon ekakata colour ekak dehnna onenam eka span ekak athule dhanawa -->
+   <span>
+    <i class="fa-solid fa-eye"></i>
+   </span>
+   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus sed alias explicabo quidem nihil .</p>
+  </div>
+
+  <div>
+   <h1>Mission</h1>
+   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus sed alias explicabo quidem nihil .</p>
+  </div>
+
+  <div>
+   <h1>Values</h1>
+   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus sed alias explicabo quidem nihil .</p>
+  </div>
+
+ </section>
+
+
+ <section id="section2">
+  
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+</section>
+
+
+<script src="./Assest/fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/js/all.min.js"></script>
+
+</body>
+</html>
