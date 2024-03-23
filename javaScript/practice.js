@@ -66,11 +66,11 @@ x = function(){
 
 }
 
-// console.log(); // onama ekak print karaganna
-// console.error(); // mokak hari erro ekak pront karaganna
-// console.warn(); // warinng ekak print karaganna onenam meka gannawa
-// console.info(); // mekath log eka wage thama
-// console.clear(); // eka dhunnahama okkoma clear wela yanawa
+console.log(); // onama ekak print karaganna meka use karanne // Java Wala System out eka wage
+console.error(); // mokak hari erro ekak pront karaganna
+console.warn(); // warinng ekak print karaganna onenam meka gannawa
+console.info(); // mekath log eka wage thama
+console.clear(); // eka dhunnahama okkoma clear wela yanawa
 console.table(); // tabuler data table ekak widhiyata pawicchchi karnana -- 
 // meyage athule kye valuse pears thama yawanne . 
 
@@ -83,6 +83,7 @@ console.table(); // tabuler data table ekak widhiyata pawicchchi karnana --
 // str.concat("Bye -- " , str);
 
 let url1 = "https.//";
+
 url1.startsWith("https");  // me method eken wenne dhena values ekata samana ekakdha thiyenne kiyala baalanaw
 url1.endsWith(".lk");  // meken weene end wene mekendha kiyala dhanaganna eka
 String.fromCharCode(71); // string kiyana object
