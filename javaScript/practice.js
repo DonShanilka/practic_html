@@ -28,14 +28,14 @@ myFunction(); // Call function
 //
 
 {
- const z = "welcome to IJSE 67";                                                                                                            
+ let z = "welcome to IJSE 67";                                                                                                            
  console.log(z);
 
  z = "Welcom to Sri Lanka";
  console.log(z);
 }
 
-console.log(z);  // js wala block ekak athule block ekak hadhala eka eliye idhan access karanna puluwan 
+//console.log(z);  // js wala block ekak athule block ekak hadhala eka eliye idhan access karanna puluwan 
 // --- Meka JS Wala Bug Ekak---- 
 // me bug eka fix karanna thamai (let , const) eka enne
 
@@ -47,6 +47,8 @@ console.log(z);  // js wala block ekak athule block ekak hadhala eka eliye idhan
 var k = 20;
 console.log(typeof k);
 
+x = null;
+
 x = Symbol("F00");
 console.log(typeof x); //symble
 
@@ -55,3 +57,18 @@ console.log(typeof x);
 
 x = {}; // Js Wala object ekak hadhanne mehema
 console.log(typeof x);
+
+x = [];
+console.log(typeof x);
+
+x = function(){
+
+}
+
+console.log(); // onama ekak print karaganna
+console.error(); // mokak hari erro ekak pront karaganna
+console.warn(); // warinng ekak print karaganna onenam meka gannawa
+console.info(); // mekath log eka wage thama
+console.clear(); // eka dhunnahama okkoma clear wela yanawa
+console.table(); // tabuler data table ekak widhiyata pawicchchi karnana -- 
+// meyage athule kye valuse pears thama yawanne . 
