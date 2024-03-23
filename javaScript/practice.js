@@ -25,7 +25,7 @@ function myFunction() {
 
  var y = "Welcome to IJSE";     // meke body ekata kiyanawa block ekak
 
- console.log("Y-01: " , y);
+ console.log("Y-01: " , y); // Js Wala Concatinate karanne mehema
 }
 
 myFunction(); // Call function
