@@ -8,7 +8,7 @@ k = undefined; // user visin value ekak dhala na
 console.log(l , y);
 console.log(n);
 
-// var 4x // mehema variable hadhanna ba  // _s   ,  $log   ,  x4   -- mehema var hadhanna puluwan
+// var 4x // mehema variable hadhanna ba  // variable hadhanawanam _s   ,  $log   ,  x4   -- mehema var hadhanna puluwan
 
 
 function myFunction() { 
@@ -35,11 +35,12 @@ myFunction(); // Call function
  console.log(z);
 }
 
-//console.log(z);  // js wala block ekak athule block ekak hadhala eka eliye idhan access karanna puluwan 
+console.log(z);  // js wala block ekak athule block ekak hadhala eka eliye idhan access karanna puluwan 
 // --- Meka JS Wala Bug Ekak---- 
-// me bug eka fix karanna thamai (let , const) eka enne
 
-// var eka thamai mulin release une
+// block eken eliye idhan assign karanna puluwan wena bug eka fix karanna thama me (let , const) eka enne
+
+// var eka thamai mulin js release weddi awe 
 
 // null eken wenne assign karapu eken kisima watinakamak na
 // undifind eken wenne mukuth na
@@ -131,4 +132,8 @@ if (a1 < a2) {
 console.log(tem);
 
 
+a == 1 ; // equals operater
+a === 3; //string equality oparator  -- Meya karanne Value ekath samanadha balala Typs ekath samanadha balanawa
 
+b != 2; // not equals
+b !== 5; // String not equals
