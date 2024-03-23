@@ -69,6 +69,14 @@ console.log(); // onama ekak print karaganna
 console.error(); // mokak hari erro ekak pront karaganna
 console.warn(); // warinng ekak print karaganna onenam meka gannawa
 console.info(); // mekath log eka wage thama
-console.clear(); // eka dhunnahama okkoma clear wela yanawa
+// console.clear(); // eka dhunnahama okkoma clear wela yanawa
 console.table(); // tabuler data table ekak widhiyata pawicchchi karnana -- 
 // meyage athule kye valuse pears thama yawanne . 
+
+let str = "Hello World";
+
+str.charAt(6);
+console.log(str);
+
+// concat meka use karala string 2k concat karaganna puluwan
+str.concat("Bye -- " , str);
