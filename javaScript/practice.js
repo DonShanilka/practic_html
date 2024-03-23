@@ -1,12 +1,16 @@
-console.log("Welcom to The Java Script");
+console.log("Welcom to The Java Script"); // sout eka ganne meke
 
-var x = 2;
+var x = 2;  // var eken thama variable hadhanne js wala
+
 var l = 'Shanilka';
 y = 'IJSE';
 n = null;
-k = undefined; // user visin value ekak dhala na
+k = undefined; // undefined eken kiyanne user visin value ekak dhala na
 console.log(l , y);
 console.log(n);
+
+// js wala variable wala data type ekak na. api dhena value ekata anuwa thamai data type eka hadhenne.
+
 
 // var 4x // mehema variable hadhanna ba  // variable hadhanawanam _s   ,  $log   ,  x4   -- mehema var hadhanna puluwan
 
