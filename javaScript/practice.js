@@ -1,3 +1,8 @@
+
+
+// JS Wala bugs thiyenawa.. ehema wenne meka hadhuwe dhawas 10kin nisa.
+// Adhatath fix une nathi busg thiyenawa
+
 console.log("Welcom to The Java Script"); // sout eka ganne meke
 
 var x = 2;  // var eken thama variable hadhanne js wala
@@ -48,6 +53,11 @@ console.log(z);  // js wala block ekak athule block ekak hadhala eka eliye idhan
 
 // null eken wenne assign karapu eken kisima watinakamak na
 // undifind eken wenne mukuth na
+
+const n = 30; // const eka gaththahama mekata wena valuse dhanna ba ai
+n = 40; // mehema ba
+
+let x = "Shanilka"; // var wenuwata let use karanne.. ai e ?  var eke thiya bug fix karanna thama (let) eka awe
 
 var k = 20;
 console.log(typeof k);
