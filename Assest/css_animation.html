@@ -1,0 +1,53 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        div {
+            width: 400px;
+            aspect-ratio: 1/1;
+            animation-duration: 3s;
+            animation-name: animi;
+            animation-iteration-count: infinite;
+            /*            animation-delay: 5s;*/
+            animation-direction: alternate;
+            animation-timing-function: ease-in-out;
+
+
+            border: solid 2px red;
+            background-color: blue;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            border-radius:200px;
+
+            animation: my-animation 8s infinite;
+        }
+
+        @keyframes animi {
+        0% {
+                background-image: url("https://st.depositphotos.com/1000152/1909/i/450/depositphotos_19091863-stock-photo-forest.jpg");
+            }
+            25%{
+               background-image: url("https://wallpapers.com/images/featured/forest-pictures-ghluxfda78g0i0ap.jpg");
+            }
+            75%{
+                background-image: url("https://img.freepik.com/free-photo/beautiful-shot-forest-with-tall-green-trees_181624-20615.jpg");
+            }
+            100%{
+                background-image: url("https://loveincorporated.blob.core.windows.net/contentimages/gallery/a9fb36be-f130-4f84-ab3b-363116c9c5df-Zhangjiajie_China.jpg");
+            }
+        }
+    </style>
+</head>
+<body>
+<div>
+
+</div>
+</body>
+</html>
