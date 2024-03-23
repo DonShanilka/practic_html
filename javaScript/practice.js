@@ -65,18 +65,70 @@ x = function(){
 
 }
 
-console.log(); // onama ekak print karaganna
-console.error(); // mokak hari erro ekak pront karaganna
-console.warn(); // warinng ekak print karaganna onenam meka gannawa
-console.info(); // mekath log eka wage thama
+// console.log(); // onama ekak print karaganna
+// console.error(); // mokak hari erro ekak pront karaganna
+// console.warn(); // warinng ekak print karaganna onenam meka gannawa
+// console.info(); // mekath log eka wage thama
 // console.clear(); // eka dhunnahama okkoma clear wela yanawa
 console.table(); // tabuler data table ekak widhiyata pawicchchi karnana -- 
 // meyage athule kye valuse pears thama yawanne . 
 
-let str = "Hello World";
+// let str = "Hello World";
 
-str.charAt(6);
-console.log(str);
+// str.charAt(6);
+// console.log(str);
 
 // concat meka use karala string 2k concat karaganna puluwan
-str.concat("Bye -- " , str);
+// str.concat("Bye -- " , str);
+
+let url1 = "https.//";
+url1.startsWith("https");  // me method eken wenne dhena values ekata samana ekakdha thiyenne kiyala baalanaw
+url1.endsWith(".lk");  // meken weene end wene mekendha kiyala dhanaganna eka
+String.fromCharCode(71); // string kiyana object
+url1.includes("Shanilka"); // oya thiyena string eka thiyenawadha balanawa kohe hari
+url1.indexOf("world"); // meka patan ganna thana thiyena caractor eka ex - 4 
+url1.match(/o/g); // o eka thiyana caractor kiyak thiyenawadha kiyala balallan.. tiyenam eka Array ekaakata dhanawa [o,o]
+url1.replace("," , "-"); // meken karanne ( , ) ekata repalce karanawa ( - ) eka.
+url1.search("go"); // myath wada karanne indexof widhiyatamai. "go" kiyala thiyena index eka hoyaganna . meka nathnam -1 eka return karanawa
+url1.slice(5,10); // String ekaka thiyena part ekak extract karala ganna ... 5 idhan 10 wenakan thiyena index tika gannawa
+
+
+let str6 = "JavaScript";
+str6.toLocaleUpperCase(); // meken okkoma capital letters karanawa
+str6.toLocaleLowerCase(); // meken okkoma simple letters karanawa
+
+str6.trim(); // dhepaththe space thiyenam e dheka ain karala dhanawa.. matdha space thibbata awulak na.
+
+var s8 = new String("Shanilka");
+s8.valueOf();  // string object ekak ganna
+
+s8.split(","); // wachana ( , ) ekakin wen karanawa
+
+
+let a = 4;
+let b = 5;
+
+a+b;
+b-4;
+
+b+=5;
+
+console.log(b);
+
+
+let a1 = 10;
+let a2 = 40;
+let a3 = 90;
+
+if (a1 < a2) {
+ var tem = a2;
+} if (a2 < a3) {
+ var tem = a3 ;
+} if (a3 < a1){
+ var tem = a1;
+}
+
+console.log(tem);
+
+
+
