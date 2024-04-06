@@ -44,7 +44,8 @@ myFunction(); // Call function
  console.log(z);
 }
 
-console.log(z);  // js wala block ekak athule block ekak hadhala eka eliye idhan access karanna puluwan 
+// console.log(z);  // js wala block ekak athule block ekak hadhala eka eliye idhan access karanna puluwan 
+
 // --- Meka JS Wala Bug Ekak---- 
 
 // block eken eliye idhan assign karanna puluwan wena bug eka fix karanna thama me (let , const) eka enne
@@ -54,10 +55,10 @@ console.log(z);  // js wala block ekak athule block ekak hadhala eka eliye idhan
 // null eken wenne assign karapu eken kisima watinakamak na
 // undifind eken wenne mukuth na
 
-const n = 30; // const eka gaththahama mekata wena valuse dhanna ba ai
-n = 40; // mehema ba
+// const n = 30; // const eka gaththahama mekata wena valuse dhanna ba ai
+// n = 40; // mehema ba
 
-let x = "Shanilka"; // var wenuwata let use karanne.. ai e ?  var eke thiya bug fix karanna thama (let) eka awe
+//let x = "Shanilka"; // var wenuwata let use karanne.. ai e ?  var eke thiya bug fix karanna thama (let) eka awe
 
 var k = 20;
 console.log(typeof k);
@@ -84,7 +85,7 @@ console.log(); // onama ekak print karaganna meka use karanne // Java Wala Syste
 console.error(); // mokak hari erro ekak pront karaganna
 console.warn(); // warinng ekak print karaganna onenam meka gannawa
 console.info(); // mekath log eka wage thama
-console.clear(); // eka dhunnahama okkoma clear wela yanawa
+// console.clear(); // eka dhunnahama okkoma clear wela yanawa
 console.table(); // tabuler data table ekak widhiyata pawicchchi karnana -- 
 // meyage athule kye valuse pears thama yawanne . 
 
@@ -152,3 +153,43 @@ a === 3; //string equality oparator  -- Meya karanne Value ekath samanadha balal
 
 b != 2; // not equals
 b !== 5; // String not equals
+
+
+var marks = 60;
+
+if(marks > 75) {
+ console.log("A");
+} else if (marks > 65) {
+ console.log("B");
+} else if (marks > 55) {
+ console.log("C");
+} else if(marks > 35){
+ console.log("S");
+}
+
+var x = 10;
+
+var result = (x > 5) ? "OK" : "No";
+console.log("Result = ",result);
+
+var mark = 55;
+
+var newResult = (mark > 75) ? "A" : (mark > 65) ? "B" : (mark > 55) ? "C" : (mark > 45) ? "C":"S";
+console.log(newResult);
+
+for(var i = 0; i < 10; i++){
+ console.log("HEllo Shanilka");
+}
+
+
+for(var i = 1; i < 100; i++){
+ if(i%2==0){
+  console.log(i);
+ }
+}
+
+var z = 0;
+while(z==10){
+ console.log(z);
+ z++;
+}
