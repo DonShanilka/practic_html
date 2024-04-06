@@ -338,3 +338,17 @@ document.getElementsByTagName("button")[0].addEventListener('click', function(){
 });
 
 
+
+// Funtion Constructor
+// meka wadiya use wenne na
+
+var fn = new Function(para1, para2,para4,para5); // mekata onatharan parameeter difind karanna puluwan // anthima parameeter ekata dhanne body eke wenna one mokakdha eka.eka dhanneth string ekak widhiyata
+var result = fn(100, 200);
+console.log("Result: ", result); 
+
+document.querySelectorAll("input")[0].addEventListener("input", function(event){
+ document.getElementsByTagName("h5")[0].innerText = event.target.value;
+})
+
+     
+
