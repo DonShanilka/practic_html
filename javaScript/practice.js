@@ -188,8 +188,15 @@ for(var i = 1; i < 100; i++){
  }
 }
 
-var z = 0;
-while(z==10){
- console.log(z);
+var z = 1;
+while(z <= 100){
+ if(z%2===0) console.log(z);
  z++;
 }
+
+do{
+ if(i%2==0){
+  console.log(i);
+ }
+ i++
+} while (i <= 100);
