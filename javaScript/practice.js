@@ -181,7 +181,6 @@ for(var i = 0; i < 10; i++){
  console.log("HEllo Shanilka");
 }
 
-
 for(var i = 1; i < 100; i++){
  if(i%2==0){
   console.log(i);
@@ -200,3 +199,17 @@ do{
  }
  i++
 } while (i <= 100);
+
+
+// JS Funtion
+
+// java wala wage nemei JS walata widhi godak thiyenawa funtion hadhanne.... wenne ekama dhe
+
+// name Funtion 
+
+// function kiyana key word eken thama meka haddhanne
+
+function myfunction(){
+ // meka thama funtion eke body eka
+ console.log("MY 1st Funtion");
+}  // name funtion eka kiyanne funtion kye word eka mulata dhala hadhana eka
