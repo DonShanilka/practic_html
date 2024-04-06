@@ -321,13 +321,20 @@ console.log(getclass);
 
 // new
 
-
+//peo css
 var eliment = document.getElementsByTagName("h5")[0];
 eliment.style.color="red";                  // style karanawa
 eliment.style.backgroundColor="yellow";
 console.log(eliment);
 
 
+var style = "color: blue; background: yello";
+eliment.style.cssText = style; // mehemarh puluwan
 
+
+//
+document.getElementsByTagName("button")[0].addEventListener('click', function(){  // click kiyana event eka lisnt karan innawa
+ console.log("Click"); // click unoth meke athule thiyena ena imediantly click karanna
+});
 
 
