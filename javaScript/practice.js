@@ -293,5 +293,41 @@ result[0].innerHTML = "<i>Shanilka</i>"; // meke tag eka nathiwa print wenawa ad
 console.log(result[0]);
 
 
+// ID eka ganna
 var getid = document.getElementById("myP"); // meken wenne adhala id eka gannawa
 console.log(getid);
+
+getid.innerText = "Hello Sahan Udhakara";
+
+
+// get element by class name
+
+var getclass = document.getElementsByClassName("btn");
+console.log(getclass);
+
+getclass.innerText = "Fuck You";
+console.log(getclass);
+
+
+//var getName = document.getElementsByName();  // name atribute eken ganne
+
+//document.querySelector("p"); // paragraf eka dhenawa
+
+//var getAll = document.querySelectorAll("#myP"); // okkoma gannawa
+//console.log(getAll);
+
+//document.querySelectorAll("ul>li"); // css wala thiyena hama widhiyakatama meka ganna puluwan
+
+
+// new
+
+
+var eliment = document.getElementsByTagName("h5")[0];
+eliment.style.color="red";                  // style karanawa
+eliment.style.backgroundColor="yellow";
+console.log(eliment);
+
+
+
+
+
