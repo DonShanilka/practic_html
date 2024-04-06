@@ -269,11 +269,11 @@ function callback(){
  console.log("CallBack");
 }
 
-function shanilka(parameter12){
- parameter12();
-}
+// function shanilka(parameter12){
+//  parameter12();
+// }
 
-shanilka(callback());
+// shanilka(10 ,callback());
 
 
 
@@ -282,3 +282,16 @@ shanilka(callback());
 // peo js wala dom eke thiyana eliment select karanna widhi 6k thiyenawa
 
 //
+var result = document.getElementsByTagName("h1"); // tage name eka var ekakata dhanawa
+console.log("Result",result); //  eka print karagannawa
+console.log("Result",result[2].innerText); // index eke thiyena text eka gannawa meken..   (.innerText)
+
+result[1].innerText = "<i>Shanilka</i>"; // meken wenne html eka wenas nowi live server eken wenas karannama kena ganne
+console.log(result[1]); // meke dhena hama ekama print wenawa
+
+result[0].innerHTML = "<i>Shanilka</i>"; // meke tag eka nathiwa print wenawa adhala eka
+console.log(result[0]);
+
+
+var getid = document.getElementById("myP"); // meken wenne adhala id eka gannawa
+console.log(getid);
