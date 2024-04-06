@@ -213,3 +213,72 @@ function myfunction(){
  // meka thama funtion eke body eka
  console.log("MY 1st Funtion");
 }  // name funtion eka kiyanne funtion kye word eka mulata dhala hadhana eka
+
+myFunction(); // call funtion
+
+
+function fun2(name1 , name2){   //function fun2(var name1 , var name2) -- var kiyana eka dhanna one na JS wala parameter pass karaddi
+ console.log(name1 + name2);
+} // para meeter ekata idea ekak na valu eka mokakdha kiyala..mokadha meka type safe na... Ekata thama TypeScript thiyenne
+
+fun2("Nishith" , "Shanilka");
+
+
+
+// Funtion Expretion
+var myfun3 = function(){ // me funtion ekata name ekak na ... e wenuwata meka variable ekakata dhanawa
+ console.log("Fun3");
+}
+
+myfun3();
+
+
+
+// Arrow Funtion
+var arraowFuntion = () => {  // meka use karanne liyana code gana adu karaganna
+ console.log("Arrow Funtion");
+}
+
+arraowFuntion();
+
+
+var arraowFuntion2 = (para1 , para2) => {
+ console.log(para1,para2);
+}
+
+arraowFuntion2(10 ,20);
+
+
+
+// Anonimus Funtion
+
+//meka pahadhiliwa adhura ganna bari ekak ... name ekak na
+// meka use karanne imidiantly inwork karanna karanna thama meka use karanne
+
+// javac eke pearpos eka karanne complilerwa inwork karanawa
+
+(function(){
+ console.log("Anonimaus Funtion");
+})
+
+
+
+// callback funtion
+
+function callback(){
+ console.log("CallBack");
+}
+
+function shanilka(parameter12){
+ parameter12();
+}
+
+shanilka(callback());
+
+
+
+// DOM Manipulation
+
+// peo js wala dom eke thiyana eliment select karanna widhi 6k thiyenawa
+
+//
