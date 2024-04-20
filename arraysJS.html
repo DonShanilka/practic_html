@@ -81,6 +81,21 @@
   //09 include (meka ganne pass karana value eka item ekak widhiyata thiyenawadha kiyala check karanna thiyenam true, nathnam fals)
   ar1.includes(10);
 
+  var arrayNumber = [100, 221, 719, 80, 2100, 75, 6];
+
+  const findNumber = (array) => {
+    var newNumber = [];
+    for(var i = 0; i < arrayNumber.length; i++){
+      if(arrayNumber[i] % 2 == 1){
+        newNumber.push(arrayNumber[i]);
+      }
+    }
+    return newNumber;
+  }
+
+  var oddNumber = findNumber(arrayNumber);
+  console.log(oddNumber);
+
  </script>
  
 </body>
