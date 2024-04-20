@@ -98,7 +98,23 @@
 
   //10 filter 
   var result = arrayNumber.filter(function (item){ // arrayNumber eken filter eka one by one index aran item ekata dhanawa dhala balanawa condition eka true or fals wenawadha kiyala
-    return item % 2 > 0;
+    return item % 2 > 0; // fals nam filter eken return karanawa // true nam filter eken return karaala tempary array ekakata dhanawa
+  });
+
+
+  //11 map - meken puluwan arrays ekak athule thiyena index one by one illa ganna(loop karanawa wage)
+  numberArray.map(item =>{
+    console.log(item);
+  });
+
+  numberArray.map((item, index) => {
+    console.log(index)
+  })
+
+  var num = [10,20,40,39,90];
+
+  num.map((item, index) => {
+    
   });
 
  </script>
