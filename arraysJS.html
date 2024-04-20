@@ -58,7 +58,15 @@
   //04 unshift (Array eke mulata values tika dhanawa)
   newarray.unshift("Welcome", false, 2000); // vlues kihipayak dhanna puluwan
 
+  //05 concat , mekath ekak wada karanna arrays dhekak one ()
+  var ar1 = [1,2,3,9,8,5];
+  var ar2 = [4,5,6]
+  ar1.concat(ar2); //arays dhekak merge karanawa  // meken anith ewa wage thiyena arrays eka wenas wenne na
 
+  //06 slice (arrays ekaka thiyena yam poshan ekaka shallow copy ekak aran dhena eka thama meken karanne)
+  ar1.slice(2); // dhena indeks eke idhan issaraha tika return karanawa
+  var newar = ar1.slice(2,8); // 2 8 nathuwa ithuru index tika
+  console.log(newar);
  </script>
  
 </body>
