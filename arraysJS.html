@@ -24,9 +24,36 @@
 
   console.log(array3[4]);
 
-  var list = [25,38,15,20,100,99,250];
+
+  var numberArray = [25, 60, -101, 78,45,98];
+
+  function findMax() {
+    let value = 0;
+    for (let i = 0; i < numberArray.length; i++) {
+      if (numberArray[i] > value) {
+        value = numberArray[i];
+      }
+    }
+    
+    return value;
+  }
+  console.log(findMax());
+
+  // Arrays Method
+
+  // 01 push() aluthin array ekakata values ekak add karanne meken
+
+  var newarray = [];
+  newarray.push("Hello");
+  console.log(newarray);
+
+  newarray.push("Shanilka");
+
+  //02 pop -- (array eke aga thiyena item eka remove karanawa)
+
 
  </script>
  
 </body>
 </html>
+
