@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .div1 {
+            width: 100px;
+            height: 100px;
+            border: 4px red solid;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .div2{
+            width: 100px;
+            height: 100px;
+            border: 4px red solid;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .div3 {
+            width: 100px;
+            height: 100px;
+            border: 4px red solid;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .div4 {
+            width: 100px;
+            height: 100px;
+            border: 4px red solid;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .div5 {
+            width: 100px;
+            height: 100px;
+            border: 4px red solid;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .div6 {
+            width: 100px;
+            height: 100px;
+            border: 4px red solid;
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="div1" id="a">
+        <h1 >A</h1>
+    </div>
+    <div class="div2" id="b">
+        <h1 >B</h1>
+    </div>
+    <div class="div3" id="c">
+        <h1 >C</h1>
+    </div>
+    <div class="div4" id="d">
+        <h1 >D</h1>
+    </div>
+    <div class="div5" id="e">
+        <h1 >E</h1>
+    </div>
+    <div class="div6" id="f">
+        <h1 >F</h1>
+    </div>
+
+    <button id="start-btn"></button>
+    <button id="end-btn"></button>
+
+    <script>
+        let ar = ["A","B","C","D","E","F"];
+
+        function replace(){
+            let lastvalue = ar.pop();
+            ar.unshift(lastvalue);
+
+            $("#a").text(ar[0]);
+            $("#b").text(ar[1]);
+            $("#c").text(ar[2]);
+            $("#d").text(ar[3]);
+            $("#e").text(ar[4]);
+            $("#f").text(ar[5]);
+        }
+
+        setInterval(replace, 100);
+
+    </script>
+</body>
+</html>
